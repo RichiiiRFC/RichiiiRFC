@@ -25,5 +25,4 @@ Apasionado por la programación, los videojuegos y el aprendizaje continuo.
 
 📧 ricardoinfo6@gmail.com  
 🌐 [rrausell.es](https://rrausell.es) 
-🐙 [@RichiiiRFC en GitHub](https://github.com/RichiiiRFC)
 
