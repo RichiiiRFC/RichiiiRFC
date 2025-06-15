@@ -15,7 +15,7 @@ Apasionado por la programación, los videojuegos y el aprendizaje continuo.
 
 ## 🛠️ Tecnologías que manejo
 
-**Lenguajes:** Java · PHP · JavaScript · Python · C# · Kotlin · Dart 
+**Lenguajes:** Java · PHP · JavaScript · Python · C# · Kotlin · Dart  
 **Web & BBDD:** HTML · CSS · Bootstrap · jQuery · MySQL  
 **Herramientas:** Git/GitHub · Docker · Visual Studio · Unity · Photoshop/Canva
 
@@ -24,5 +24,5 @@ Apasionado por la programación, los videojuegos y el aprendizaje continuo.
 ## 📫 Contacto
 
 📧 ricardoinfo6@gmail.com  
-🌐 [rrausell.es](https://rrausell.es) 
+🌐 [rrausell.es](https://rrausell.es)  
 
