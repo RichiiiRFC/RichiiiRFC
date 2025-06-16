@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Rausell - Desarrollador Web</title>
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome (para iconos) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- ==================== HEADER / NAVEGACIÓN ==================== -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">Ricardo Rausell</a>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li class="nav-item"><a href="#experiencia" class="nav-link">Experiencia</a></li>
+                    <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link nav-link-button">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="nav-toggle"><i class="fas fa-bars"></i></div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ==================== INICIO / SOBRE MÍ (SECCIÓN UNIFICADA) ==================== -->
+        <section id="inicio" class="hero-about section">
+            <div class="hero-about-container container">
+                <!-- Columna de Texto -->
+                <div class="hero-about-text">
+                    <h1 class="hero-about-title">Hola, soy <span class="hero-about-name">Ricardo Rausell</span></h1>
+                    <p class="hero-about-subtitle">Desarrollador de Software</p>
+                    <p class="hero-about-description">
+                        Informático enfocado en la programación y el desarrollo de software. Mi interés abarca diversos campos de la informática y tengo una fuerte motivación para seguir aprendiendo y explorando nuevas áreas.
+                        <br><br>
+                        <strong>Idiomas:</strong> Castellano y Valenciano (Nativo), Inglés (Intermedio).
+                    </p>
+                    
+                    <div class="hero-about-actions">
+                        <!-- Nivel 1: Botón Principal -->
+                        <a href="#proyectos" class="button">Ver mis proyectos</a>
+
+                        <!-- Nivel 2: Enlaces Secundarios -->
+                        <div class="hero-about-secondary-actions">
+                            <a href="https://github.com/RichiiiRFC" target="_blank" class="secondary-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="assets/curriculum.pdf" download="CV_Ricardo_Rausell" class="secondary-link">
+                                <i class="fas fa-download"></i>
+                                <span>Descargar CV</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna de Imagen -->
+                <div class="hero-about-image">
+                    <img src="assets/perfil.jpeg" alt="Foto de Ricardo Rausell">
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== MARQUESINA DE TECNOLOGÍAS ==================== -->
+        <div class="tech-stack-marquee">
+            <div class="tech-stack-marquee-content">
+                <i class="fab fa-laravel"></i><i class="fab fa-js"></i><i class="fas fa-database"></i><i class="fab fa-unity"></i><i class="fab fa-java"></i><i class="fab fa-php"></i><i class="fab fa-python"></i><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-bootstrap"></i><i class="fab fa-git-alt"></i>
+                <i class="fab fa-laravel"></i><i class="fab fa-js"></i><i class="fas fa-database"></i><i class="fab fa-unity"></i><i class="fab fa-java"></i><i class="fab fa-php"></i><i class="fab fa-python"></i><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-bootstrap"></i><i class="fab fa-git-alt"></i>
+            </div>
+        </div>
+
+        <!-- ==================== PROYECTOS ==================== -->
+        <section id="proyectos" class="section">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="container project-container">
+                <!-- Proyecto 1: Fragora -->
+                <div class="project-card">
+                    <img src="assets/Fragora_p.png" alt="Captura de pantalla de la tienda online Fragora" class="project-img">
+                    <div class="project-data">
+                        <h3 class="project-title">Fragora - E-commerce de Perfumería</h3>
+                        <p class="project-description">
+Desarrollo de una tienda online de perfumes árabes con Laravel. Incluye catálogo de productos, sistema de registro e inicio de sesión, carrito de compra, gestión de pedidos y panel de administración para controlar usuarios, productos y ventas.
+</p>
+
+                        <div class="project-tags"><span>Laravel</span><span>JavaScript</span><span>MySQL</span></div>
+                        <div class="project-links">
+                            <a href="http://fragora.eu/" target="_blank" class="project-link">Ver Demo <i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/RichiiiRFC/fragora" target="_blank" class="project-link">Código <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 2: SKYFALL RUSH -->
+                <div class="project-card">
+                    <!-- RECUERDA CAMBIAR ESTA IMAGEN POR UNA DE TU JUEGO -->
+                    <img src="assets/skyrush.png" alt="Imagen promocional del juego SKYFALL RUSH" class="project-img">
+                    <div class="project-data">
+                        <h3 class="project-title">SKYFALL RUSH</h3>
+                        <p class="project-description">
+Endless runner vertical desarrollado en Unity, donde el jugador debe esquivar espadas y recolectar monedas mientras cae sin fin. El objetivo es sobrevivir el mayor tiempo posible y lograr la máxima puntuación.
+</p>
+
+                        <div class="project-tags"><span>Unity</span><span>C#</span></div>
+                        <div class="project-links">
+                            <!-- RECUERDA CAMBIAR ESTOS ENLACES -->
+                            <a href="#" target="_blank" class="project-link">Código <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ==================== EXPERIENCIA Y EDUCACIÓN ==================== -->
+        <section id="experiencia" class="section">
+            <h2 class="section-title">Experiencia y Educación</h2>
+            <div class="container timeline-container">
+                <div class="timeline">
+                    <h3 class="timeline-title">Experiencia Laboral</h3>
+
+                    <div class="timeline-item">
+                        <h4 class="timeline-item-title">Desarrollador Web (Prácticas)</h4>
+                        <span class="timeline-item-subtitle">Sagajean | Marzo 2024 - Junio 2024</span>
+                        <p class="timeline-item-description">
+                            Desarrollo de una página web con PHP y jQuery. 
+                            Herramientas: Visual Studio, phpMyAdmin.
+                        </p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4 class="timeline-item-title">Gestor Web (Prácticas)</h4>
+                        <span class="timeline-item-subtitle">Siscopel | Marzo 2022 - Junio 2022</span>
+                        <p class="timeline-item-description">
+                            Diseño gráfico, creación de banners/logos y gestión de contenido. 
+                            Herramientas: Adobe Photoshop, Prestashop, Canva, Microsoft Access.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline">
+                    <h3 class="timeline-title">Datos Académicos</h3>
+                    <div class="timeline-item">
+                        <h4 class="timeline-item-title">CFGS Desarrollo de Aplicaciones Multiplataforma</h4>
+                        <span class="timeline-item-subtitle">IES Salvador Gadea | 2024 - Actualidad</span>
+                    </div>
+                    <div class="timeline-item">
+                        <h4 class="timeline-item-title">CFGS Desarrollo de Aplicaciones Web</h4>
+                        <span class="timeline-item-subtitle">IES Salvador Gadea | 2022 - 2024</span>
+                    </div>
+                    <div class="timeline-item">
+                        <h4 class="timeline-item-title">CFGM Sistemas Microinformáticos y Redes</h4>
+                        <span class="timeline-item-subtitle">IES Salvador Gadea | 2020 - 2022</span>
+                    </div>
+                     <div class="timeline-item">
+                        <h4 class="timeline-item-title">Educación Secundaria Obligatoria</h4>
+                        <span class="timeline-item-subtitle">IES Ramón Muntaner | 2015-2020</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== HABILIDADES ==================== -->
+        <section id="habilidades" class="section">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="container skills-container">
+                <div class="skills-category">
+                    <h3>Lenguajes</h3>
+                    <div class="skills-list">
+                        <span><i class="fab fa-java"></i> Java</span><span><i class="fab fa-js"></i> JavaScript</span><span><i class="fab fa-php"></i> PHP</span><span><i class="fab fa-python"></i> Python</span><span><i class="fab fa-android"></i> Kotlin</span><span><i class="fab fa-unity"></i> C# (Unity)</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Web y BBDD</h3>
+                    <div class="skills-list">
+                        <span><i class="fab fa-html5"></i> HTML</span><span><i class="fab fa-css3-alt"></i> CSS</span><span><i class="fab fa-bootstrap"></i> Bootstrap</span><span><i class="fab fa-js"></i> jQuery</span><span><i class="fab fa-wordpress"></i> CMS</span><span><i class="fas fa-database"></i> MySQL</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Herramientas y Entornos</h3>
+                    <div class="skills-list">
+                        <span><i class="fab fa-git-alt"></i> Git/GitHub</span><span><i class="fab fa-docker"></i> Docker</span><span><i class="fab fa-windows"></i> Windows/Linux</span><span><i class="fas fa-code"></i> Visual Studio</span><span><i class="fas fa-palette"></i> Photoshop/Canva</span><span><i class="fas fa-network-wired"></i> Redes</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== CONTACTO ==================== -->
+        <section id="contacto" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <p class="contact-description">Actualmente tengo disponibilidad total y estoy abierto a nuevas oportunidades laborales. Si tienes un proyecto en mente o quieres conectar, ¡no dudes en contactarme!</p>
+                <a href="mailto:ricardoinfo6@gmail.com" class="button">Envíame un correo <i class="fas fa-paper-plane"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-copy">© 2025 Ricardo Rausell. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
